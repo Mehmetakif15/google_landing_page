@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
 nav {
@@ -20,7 +22,10 @@ nav {
 }
 .left ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(89, 89, 89);
+}
+.left ul li a:hover {
+  text-decoration: underline;
 }
 
 .right ul {
@@ -35,16 +40,26 @@ nav {
   text-decoration: none;
   color: rgb(89, 89, 89);
 }
+.right ul li a:hover {
+  text-decoration: underline;
+}
+
 #icon-menu {
   width: 30px;
   height: 30px;
   opacity: 0.5;
+}
+#icon-menu:hover {
+  opacity: 1;
 }
 #sign {
   background-color: #4285f4;
   color: white;
   padding: 7px 15px;
   border-radius: 3px;
+}
+#sign:hover {
+  text-decoration: none;
 }
 .logo {
   text-align: center;
@@ -87,6 +102,8 @@ nav {
 }
 .btn button:hover {
   cursor: pointer;
+  box-shadow: 1px 1px grey;
+  color: black;
 }
 .btn .b {
   margin-right: 10px;
@@ -95,4 +112,36 @@ nav {
 .lang {
   text-align: center;
   margin-top: 25px;
+}
+footer {
+  margin-top: 288px;
+  background-color: #f2f2f2;
+}
+footer .foot1 {
+  padding: 10px 20px;
+  border-bottom: 2px solid #e4e4e4;
+  color: #5f6368;
+}
+footer .foot2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+footer .foot2 ul {
+  display: flex;
+  list-style-type: none;
+}
+footer .foot2 .advertise ul li {
+  margin-right: 20px;
+}
+footer .foot2 .privacy ul li {
+  margin-left: 20px;
+}
+footer .foot2 ul li a {
+  color: #5f6368;
+  text-decoration: none;
+}
+footer .foot2 ul li a:hover {
+  text-decoration: underline;
 }
