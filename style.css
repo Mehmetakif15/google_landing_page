@@ -71,7 +71,7 @@ nav {
   border-width: 1px;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(154, 153, 153);
+  border-color: rgba(154, 153, 153, 0.5);
   width: 500px;
   height: 45px;
   margin: auto;
@@ -80,6 +80,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+}
+.search:hover {
+  box-shadow: 2px 3px rgba(157, 157, 157, 0.3);
 }
 #search-area {
   width: 400px;
